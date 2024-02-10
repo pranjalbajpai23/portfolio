@@ -21,7 +21,7 @@ function App() {
   return (
     <>
       {
-        shutdownState ? <Shutdown /> : <div className='bg'>
+        shutdownState ? <Shutdown /> : <div className='bgD'>
           <Navbar />
           <Outlet />
           <BottomBar />
