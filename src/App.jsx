@@ -21,11 +21,15 @@ function App() {
   return (
     <>
       {
-        shutdownState ? <Shutdown /> : <div className='bgD'>
-          <Navbar />
-          <Outlet />
-          <BottomBar />
-        </div>
+        shutdownState ? <Shutdown /> : <>
+          <img className='w-dvw h-dvh absolute -z-10' src="bg.png" alt="" />
+          <div className=''>
+            <Navbar />
+            <Outlet />
+            <BottomBar />
+          </div>
+        </>
+
       }
 
     </>

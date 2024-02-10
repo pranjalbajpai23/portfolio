@@ -1,9 +1,4 @@
-.bgD {
-    background-image: url("./public/bg.png");
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-}
+
 .navbar a.active {
     color: rgb(34 197 94);
 }
