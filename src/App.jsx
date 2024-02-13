@@ -22,8 +22,8 @@ function App() {
     <>
       {
         shutdownState ? <Shutdown /> : <>
-          <img className='w-dvw h-dvh absolute -z-10' src="bg.png" alt="" />
-          <div className=''>
+          <img className='fixed w-dvw h-dvh -z-10' src="bg.png" alt="" />
+          <div className='w-dvw h-dvh flex flex-col justify-between items-center'>
             <Navbar />
             <Outlet />
             <BottomBar />
